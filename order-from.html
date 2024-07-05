@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="form">
+    <header>
+       
+        <div id="logo">
+            <img src="asset/logo.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="price-tab.html">Prices</a></li>
+                
+            </ul>
+        </nav>
+        <div id="locations">
+            <div id="location">
+                <div id="loc-ic">
+                    <i class="fa-solid fa-location-crosshairs"></i>
+                    <p>Location</p>
+                </div>
+                <div id="down-arrw"><i class="fa-solid fa-angle-down"></i></div>
+            </div>
+            <div id="search-bar">
+                <div id="srr-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div id="search">
+                    <p>search</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <i class="fa-regular fa-user"></i>
+        </div>
+    </header>
+    <main>
+        <section id="form">
+            <form action="#">
+                <label for="">
+                    Ypur Name: <input placeholder="Your Name" type="text" required >
+                </label>
+                <label for="Your Phone Number">
+                    Your Phone Number : <input type="number" name="" id="" placeholder="Your Phone Number" required max="11">
+                </label>
+                <label for="Massage">
+                    <textarea cols="40" rows="15" name="" id="">Write Messages</textarea>
+                </label>
+                <fieldset>
+                    <legend>
+                        Chooace Your Service Packag
+                    </legend>
+                    <label for="Classic">
+                        <input checked type="radio" name="Packag" id=""> Classic
+                    </label>
+                    <label for="Signature"><input type="radio" name="Packag" id=""> Signature</label>
+                    <label for="Extension"><input type="radio" name="Packag" id=""> Extension</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Select Your Service</legend>
+                    <label for="Deep tissue"><input type="checkbox" name="" id=""> Deep tissue</label>
+                    <label for="Relaxation massage"><input type="checkbox" name="" id=""> Relaxation massage</label>
+                    <label for="Hot Stone"><input type="checkbox" name="" id=""> Hot Stone</label>
+                </fieldset>
+                <input class="seb-re" type="reset" value="Reset">
+                <input class="seb-re" type="submit" value="submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
