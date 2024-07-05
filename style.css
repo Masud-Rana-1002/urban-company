@@ -131,3 +131,14 @@ text-align: center;
    height: 100%;
 }
 /* banner section End */
+#best-deal {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+#best-deal >div {
+    width: 32%;
+}
+#best-deal >div >img {
+    width: 100%;
+}
